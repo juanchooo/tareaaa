@@ -28,6 +28,8 @@ public class JavaApplication32 {
                 System.out.println("nombre de producto: ");
                 Scanner name = new Scanner (System.in); //Creación de un objeto Scanner
                 String nombre = name.nextLine ();
+                System.out.println("precio: ");
+                int precio = name.nextInt ();
             }
         }
     }
